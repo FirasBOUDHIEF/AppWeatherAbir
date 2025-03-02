@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  button {
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  .weather-icon {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
